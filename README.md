@@ -37,8 +37,7 @@ by Tree Rewriting, Run-time Enviornments.
 # Course Evaluation
 
 Three written tests and Programming Assignment.
-50 percentage of the total marks will be for Programming Assignment.
-
+Division of the marks will be disclosed in the first class.
 # Class Schedule
  Monday, Tuesday and Friday in the slot B. Room Number 306.
  
