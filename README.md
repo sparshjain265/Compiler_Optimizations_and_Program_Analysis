@@ -34,6 +34,11 @@ Introduction to polyhedral optimizations, Optimization for Cache Locality.
 by Tree Rewriting, Run-time Enviornments.
 
 
+# Course Evaluation
 
+Three written tests and Programming Assignment.
+50 percentage of the total marks will be for Programming Assignment.
 
-
+# Class Schedule
+ Monday, Tuesday and Friday in the slot B. Room Number 306.
+ 
