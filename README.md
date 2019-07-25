@@ -39,5 +39,5 @@ by Tree Rewriting, Run-time Enviornments.
 Three written tests and Programming Assignment.
 Division of the marks will be disclosed in the first class.
 # Class Schedule
- Monday, Tuesday and Friday in the slot B. Room Number 306.
+ Monday, Tuesday and Thursday in the slot B. Room Number 306.
  
