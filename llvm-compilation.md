@@ -33,7 +33,7 @@
 7  Write a sample C program name hello.c and do the steps below ( your still in $HOME/llvm3.8 folder)
 
         
-        clang -O3 -emit-llvm ~/hello.c -c -o hello.bc
+        clang -O3 -emit-llvm hello.c -c -o hello.bc
         ./bin/opt  -load ./lib/LLVMHello.so -hello ./hello.bc
         ./bin/opt  -load ./lib/LLVMHello.so -hello ./hello.bc
         
