@@ -44,5 +44,7 @@
 
 #Note
 1   Steps are taken from https://llvm.org/docs/CMake.html
+
 2   The .bc file can be run using lli command
+
         ./bin/lli hello.bc
