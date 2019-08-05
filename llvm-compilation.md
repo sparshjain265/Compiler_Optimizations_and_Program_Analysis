@@ -1,12 +1,12 @@
 #Steps
 
-1 Install clang using apt-get
+1 Install clang using apt-get (clang is LLVM C compiler)
 
     sudo apt-get install clang
         
 2 Download llvm source code
  
-     http://releases.llvm.org/3.8.0/llvm-3.8.0.src.tar.xz
+    wget http://releases.llvm.org/3.8.0/llvm-3.8.0.src.tar.xz
     
 3 Extract llvm source code in $HOME folder
       
