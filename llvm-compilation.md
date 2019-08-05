@@ -12,7 +12,7 @@
       
          cp llvm-3.8.0.src.tar.xz $HOME
          cd $HOME
-         tar -xvf llvm-3.8.0.src.tar.xz $HOME
+         tar -xvf llvm-3.8.0.src.tar.xz 
      
 3  Make a folder $HOME/llvm3.8
 
@@ -31,6 +31,7 @@
     cmake --build .
     
 7  Write a sample C program name hello.c and do the steps below ( your still in $HOME/llvm3.8 folder)
+
         
         clang -O3 -emit-llvm ~/hello.c -c -o hello.bc
         ./bin/opt  -load ./lib/LLVMHello.so -hello ./hello.bc
@@ -41,4 +42,5 @@
         $HOME/llvm-3.8.0.src/lib/Transforms/Hello/Hello.cpp
         
 
-        
+#Note
+Steps are taken from https://llvm.org/docs/CMake.html
