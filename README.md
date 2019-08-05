@@ -4,15 +4,10 @@ This is read5me file for CS5510- Compilers Optimizations and Programming Analysi
 
 ### Compiling gcc from source
 
+See the file gcc-compilation.md
 
 ### Installing LLVM
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+See the file llvm-compilation.md
 
 ### Contribution guidelines ###
 
