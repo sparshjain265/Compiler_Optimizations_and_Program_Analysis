@@ -26,7 +26,7 @@
 
     cmake $HOME/llvm-3.8.0.src
 
-6   install llvm
+6   install llvm. This will take  around one hour (lesser/greater than one hour based on your laptop)
 
     cmake --build .
     
