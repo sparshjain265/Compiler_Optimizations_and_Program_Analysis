@@ -29,7 +29,7 @@ Steps
 
 10) Configure gcc. Which also checks all the required dependencies are satisfied.
 
-	          ../gcc-6.4.0/configure 
+	          ../gcc-6.4.0/configure  --enable-languages=c,c++
 
 11) compile gcc souce (This took nearly four hours to compile. Keep terminal open, latop charged and focus on other works).
 
