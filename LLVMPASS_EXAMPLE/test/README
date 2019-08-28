@@ -1,0 +1,16 @@
+The Hello.cpp function
+Takes each instruction
+	 if it is an add instruction
+		 modifies the first argument to 1500
+The hello.bc can be 
+		converted to human readable form using
+				 llvm-dis (llvm-dis hello.bc will generate hello.ll)
+The hello.ll can be 
+		run using lli (lli hello.ll)
+The hello.ll can be edited to make all add instructions first argument to have value 1500 ( of type ConstantInt)
+
+The Class inhertiance heirarchy in LLVM is
+     llvm::ConstantInt --> llvm::ConstantData --> llvm::Constant --> llvm::User --> llvm::Value
+     ( see https://llvm.org/doxygen/classllvm_1_1ConstantInt.html)
+You may have a doubt how modified llvm binary (first argument of the add replaced by numeric value 1500) to be stored to a file?
+              Will discuss in class.
