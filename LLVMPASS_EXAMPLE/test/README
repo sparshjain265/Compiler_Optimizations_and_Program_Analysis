@@ -1,11 +1,13 @@
+This is about modifying LLVM IR - Which is needed for Assignment
+
 The Hello.cpp function
 Takes each instruction
 	
  if it is an add instruction
 
-		 modifies the first argument to 1500
+		 modifies the first argument to 1500 (It modifies semantics, but focus is on modifying input IR to a new IR)
 
-The hello.bc can be  converted to human readable form using 
+The hello.bc can be  converted to human readable form using. hello.bc is generated using clang -emit-llvm 
 	 
 	llvm-dis  hello.bc #generate hello.ll
 
@@ -13,7 +15,7 @@ The hello.ll can be run using lli
 	
 	lli hello.ll
 
-The hello.ll can be edited manaully to make all add instructions first argument to have value 1500 ( of type ConstantInt). Then run using lli.
+The hello.ll can be edited manaully to make all add instructions first argument to have value 1500 ( of type ConstantInt). Then run using lli. It modifies Semantics
 
 The Class inhertiance heirarchy in LLVM is
 
