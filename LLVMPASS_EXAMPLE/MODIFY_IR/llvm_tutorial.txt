@@ -1,0 +1,45 @@
+
+llvm::LLVMContext &context = F.getContext();
+https://llvm.org/doxygen/classllvm_1_1Type.html
+enum  	TypeID {
+  VoidTyID = 0, HalfTyID, FloatTyID, DoubleTyID,
+  X86_FP80TyID, FP128TyID, PPC_FP128TyID, LabelTyID,
+  MetadataTyID, X86_MMXTyID, TokenTyID, IntegerTyID,
+  FunctionTyID, StructTyID, ArrayTyID, PointerTyID,
+  VectorTyID
+}
+static Type * 	getVoidTy (LLVMContext &C)
+static Type * 	getLabelTy (LLVMContext &C)
+static IntegerType * 	getIntNTy (LLVMContext &C, unsigned N)
+static IntegerType * 	getInt1Ty (LLVMContext &C)
+static IntegerType * 	getInt8Ty (LLVMContext &C)
+static IntegerType * 	getInt16Ty (LLVMContext &C)
+static IntegerType * 	getInt32Ty (LLVMContext &C)
+static IntegerType * 	getInt64Ty (LLVMContext &C)
+static IntegerType * 	getInt128Ty (LLVMContext &C)
+static PointerType * 	getInt8PtrTy (LLVMContext &C, unsigned AS=0)
+static PointerType * 	getInt16PtrTy (LLVMContext &C, unsigned AS=0)
+static PointerType * 	getInt32PtrTy (LLVMContext &C, unsigned AS=0)
+static PointerType * 	getInt64PtrTy (LLVMContext &C, unsigned AS=0)
+
+Example code fragement
+
+ bool runOnFunction(Function &func) override {
+llvm::LLVMContext &context = func.getContext();
+....
+.....
+.....
+
+
+}
+
+
+llvm::Insruction class
+-----------------------
+1)unsigned getOpcode() const { return getValueID() - InstructionVal; }
+
+2) Instruction * Instruction::clone	(		)	const
+      Create a copy of 'this' instruction that is identical in all ways except the following:
+      The instruction has no parent
+      The instruction has no name
+

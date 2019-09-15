@@ -1,0 +1,31 @@
+LLVM create a constant object.
+
+Constant * ConstantInt::get(Type *Ty, uint64_t 	V, bool isSigned = false )
+LLVM Type
+enum  	TypeID {
+  VoidTyID = 0, HalfTyID, FloatTyID, DoubleTyID,
+  X86_FP80TyID, FP128TyID, PPC_FP128TyID, LabelTyID,
+  MetadataTyID, X86_MMXTyID, TokenTyID, IntegerTyID,
+  FunctionTyID, StructTyID, ArrayTyID, PointerTyID,
+  VectorTyID
+}
+getting a type object
+
+static Type * 	getVoidTy (LLVMContext &C)
+static Type * 	getLabelTy (LLVMContext &C)
+static Type * 	getHalfTy (LLVMContext &C)
+static Type * 	getFloatTy (LLVMContext &C)
+static Type * 	getDoubleTy (LLVMContext &C)
+static Type * 	getMetadataTy (LLVMContext &C)
+static Type * 	getX86_FP80Ty (LLVMContext &C)
+static Type * 	getFP128Ty (LLVMContext &C)
+static Type * 	getPPC_FP128Ty (LLVMContext &C)
+static Type * 	getX86_MMXTy (LLVMContext &C)
+static Type * 	getTokenTy (LLVMContext &C)
+static IntegerType * 	getIntNTy (LLVMContext &C, unsigned N)
+static IntegerType * 	getInt1Ty (LLVMContext &C)
+static IntegerType * 	getInt8Ty (LLVMContext &C)
+static IntegerType * 	getInt16Ty (LLVMContext &C)
+static IntegerType * 	getInt32Ty (LLVMContext &C)
+static IntegerType * 	getInt64Ty (LLVMContext &C)
+static IntegerType * 	getInt128Ty (LLVMContext &C)
