@@ -1,4 +1,7 @@
-# README #
+# Compiler Optimizations and Program Analysis
+This is a course repository cloned from the [instructor's version](https://bitbucket.org/unnikrishnanatiitpkd/compiler-optimizations-and-program-analysis/src/master/) and then added personal files.
+
+# ORIGINAL README #
 
 This is read5me file for CS5510- Compilers Optimizations and Programming Analysis 
 
